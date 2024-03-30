@@ -1,0 +1,145 @@
+/*Imagebox*/
+#menubox a
+{overflow: hidden;
+    height:30%;
+    width: 95.2%;
+    font-family:"Rockwell";
+    background-color:cornflowerblue;
+    font-size: 100%;
+    color: black;
+    float: left;
+    display: block;
+    padding:30px;
+    text-decoration: none;
+    text-align:left;
+}
+
+#menubox a:hover
+{background-color:cyan;
+color: darkorange;
+font-family: cursive}
+
+/*TitleBox*/
+#Titlebox
+{ 
+  
+  background-color: cornflowerblue;
+  font-family:"Rockwell";
+font-size: 300%;
+  color: black;
+    text-decoration: underline;
+    
+}
+
+/*ContactBox*/
+#Contactbox
+{ 
+  
+  background-color: cornflowerblue;
+  font-family:"Rockwell";
+font-size: 150%;
+  color: black;
+    text-decoration: underline;
+    
+}
+
+#Contactbox a:hover
+{ 
+  
+  background-color:cyan;
+color: darkorange;
+font-family: cursive
+    
+}
+
+/*SummaryBox*/
+
+
+#Summarybox
+{
+ background-color: cornflowerblue;
+  font-family:"Rockwell";
+font-size: 100%;
+  color: black;
+    text-decoration: none;
+}
+
+#Contactbox, #Summarybox {
+    border: 1px solid black;
+    margin: 0; /* Set margin to 0 */
+}
+
+/*FooterBox*/
+#Footerbox
+{
+ background-color: cornflowerblue;
+    width: 100%;
+    
+  font-family:"Rockwell";
+font-size: 100%;
+  color: black;
+    text-decoration: none;
+}
+#Footerbox, #Summarybox
+
+{
+    margin: 0;
+    border: 1px Solid black;
+}
+
+
+#menubox a
+{overflow: hidden;
+    height:30%;
+    width: 95.2%;
+    font-family:"Rockwell";
+    background-color:cornflowerblue;
+    font-size: 100%;
+    color: black;
+    float: left;
+    display: block;
+    padding:30px;
+    text-decoration: none;
+    text-align:left;
+}
+
+#menubox2
+{
+    height: 15%;
+}
+
+#skilland
+{
+   
+    width: 50%;
+    height: 160%;
+    background-color: cyan;
+    float: left;
+    
+}
+
+#work
+{
+    
+    width: 50%;
+    background-color:coral;
+    float: left;
+    
+}
+
+@keyframes Transition
+{
+    from
+    {opacity: 0;
+    transform: rotate3d(-10deg);
+    }
+    to{opacity: 1;
+    transform: rotate3d(0);
+    }
+}
+
+body
+{
+    animation: Transition 0.90s;
+}
+
